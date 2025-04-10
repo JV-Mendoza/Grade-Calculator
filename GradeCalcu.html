@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="GradeCalcu.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="header">
+            <div class="school">GORDON COLLEGE</div>
+            <div class="address">143 Hypertext Markup Language St, Cascading Style Sheet, City of Javascript</div>
+        </div>
+        <div class="form-group">
+            <label for="studentName">Name of Student:</label>
+            <input type="text" id="studentName">
+        </div>
+        <div class="form-group">
+            <label for="studentNumber">Student Number:</label>
+            <input type="text" id="studentNumber">
+        </div>
+        <div class="form-group">
+            <label for="midtermGrade">Tentative Midterm Grade:</label>
+            <input type="number" id="midtermGrade" min="0" max="100">
+        </div>
+        <div class="form-group">
+            <label for="finalGrade">Tentative Final Grade:</label>
+            <input type="number" id="finalGrade" min="0" max="100">
+        </div>
+        <div class="result" id="result">
+            <div class="FinalGrade">
+                <label>FINAL GRADE:</label>
+                <input type="text" id="computedGrade" readonly>
+            </div>
+            <div class="FinalGrade">
+                <label>REMARKS:</label>
+                <input type="text" id="remarks" readonly>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="buttons" id="compute">Compute</button>
+            <button class="buttons" id="new">New</button>
+        </div>
+    </div>
+
+    <table class="grade-table">
+        <tr>
+            <th>Grades</th>
+            <th>Remarks</th>
+        </tr>
+        <tr>
+            <td>100 - 99</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td>98 - 97</td>
+            <td>1.1</td>
+        </tr>
+        <tr>
+            <td>95 - 96</td>
+            <td>1.2</td>
+        </tr>
+        <tr>
+            <td>93 - 94</td>
+            <td>1.3</td>
+        </tr>
+        <tr>
+            <td>90</td>
+            <td>1.5</td>
+        </tr>
+        <tr>
+            <td>89</td>
+            <td>1.6</td>
+        </tr>
+        <tr>
+            <td>87</td>
+            <td>1.8</td>
+        </tr>
+        <tr>
+            <td>86</td>
+            <td>1.9</td>
+        </tr>
+        <tr>
+            <td>85</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>84</td>
+            <td>2.1</td>
+        </tr>
+        <tr>
+            <td>83</td>
+            <td>2.2</td>
+        </tr>
+        <tr>
+            <td>82</td>
+            <td>2.3</td>
+        </tr>
+        <tr>
+            <td>81</td>
+            <td>2.4</td>
+        </tr>
+        <tr>
+            <td>80</td>
+            <td>2.5</td>
+        </tr>
+        <tr>
+            <td>79</td>
+            <td>2.6</td>
+        </tr>
+        <tr>
+            <td>78</td>
+            <td>2.7</td>
+        </tr>
+        <tr>
+            <td>77</td>
+            <td>2.8</td>
+        </tr>
+        <tr>
+            <td>76</td>
+            <td>2.9</td>
+        </tr>
+        <tr>
+            <td>75</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>74 - 70</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <script src="GradeCalcu.js"></script>
+</body>
+
+</html>

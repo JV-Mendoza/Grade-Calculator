@@ -1,0 +1,76 @@
+body {
+    margin: auto;
+    background-color: #F2EFE7;
+}
+
+.form-container {
+    border: solid black;
+    background-color: #9ACBD0;
+    position: fixed;
+    margin: 90px auto auto 35vh;
+    padding: 50px;
+    border-radius: 20px;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: solid #21222D;
+}
+
+.school {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-group {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20vh;
+    
+}
+
+.form-group input {
+    padding: 10px;
+    padding-left: 20vh;
+    text-align: left;
+}
+
+.FinalGrade {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    width: 300px;
+    align-items: center;
+    margin-left: 40vh;
+}
+
+.FinalGrade input {
+    padding: 10px;
+    text-align: center;
+    size: 50px;
+    width: 400px;
+
+}
+
+.btn-container{
+    margin-top: 30px;
+    margin-left: 40vh;
+}
+
+.buttons {
+    height: 50px;
+    width: 150px;
+}
+
+table, th ,tr ,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: yellow;
+}
